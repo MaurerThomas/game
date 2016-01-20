@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>FruitFall Game</title>
+
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0,
+     maximum-scale=1.0, user-scalable=0" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <script src="src/pixi.min.js"></script>
+    <script src="game_main.js"></script>
+</head>
+
+<html>
+    <body>
+        <div class="font-load">&nbsp;</div>
+        <div id="game"></div>
+        <script>
+            $(document).ready(function(){
+                $('#game').fruitFall();
+            });
+        </script>
+    </body>
+</html>
+
+
